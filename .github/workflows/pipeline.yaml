@@ -24,4 +24,5 @@ jobs:
       continue-on-error: true
     - name: Test with pytest
       run: |
+        pip install pytest
         pytest

@@ -1,0 +1,11 @@
+stages:
+  prepare:
+    cmd: python src/prepare.py Left_out_broken_T1
+    deps:
+    - Left_out_broken_T1
+    - src/prepare.py
+    params:
+    - prepare.seed
+    - prepare.split
+    outs:
+    - data/prepared

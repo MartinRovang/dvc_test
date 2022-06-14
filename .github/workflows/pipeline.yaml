@@ -23,5 +23,5 @@ jobs:
         flake8 src/.
       continue-on-error: true
     - name: Test with pytest
-        run: |
-          pytest
+      run: |
+        pytest

@@ -1,0 +1,21 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python src/prepare.py Left_out_broken_T1
+    deps:
+    - path: Left_out_broken_T1
+      md5: f736e357f1075c03b86105260fc0ca5b.dir
+      size: 213571766
+      nfiles: 24
+    - path: src/prepare.py
+      md5: 35b2a355d4273a229c4f164f4802c251
+      size: 243
+    params:
+      params.yaml:
+        prepare.seed: 20170428
+        prepare.split: 0.2
+    outs:
+    - path: data/prepared
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0

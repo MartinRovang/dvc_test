@@ -20,5 +20,5 @@ jobs:
     - name: Lint with black
       run: |
         pip install black
-        black .
+        black src/.
       continue-on-error: true

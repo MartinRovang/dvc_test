@@ -1,4 +1,4 @@
 [core]
     remote = wmhdata
 ['remote "wmhdata"']
-    url = /mnt/HDD16TB/martinsr/DatasetWMH211018_v2/test
+    url = /mnt/HDD16TB/martinsr/DatasetWMH211018_v2/dvc_test_dataserver
